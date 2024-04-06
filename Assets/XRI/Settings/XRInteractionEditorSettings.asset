@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: XRInteractionEditorSettings
   m_EditorClassIdentifier: 
   m_InteractionLayerUpdaterShown: 1
-  m_ShowOldInteractionLayerMaskInInspector: 0
+  m_ShowOldInteractionLayerMaskInInspector: 1
