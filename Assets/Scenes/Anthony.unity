@@ -4076,7 +4076,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -4179,7 +4179,7 @@ MonoBehaviour:
   bulletSpawn: {fileID: 1460951970}
   recoilForce: 2
   damage: 20
-  bulletPrefab: {fileID: 3409475223840826953, guid: b69619dcbe0b2df43b7ec6c973721f0b, type: 3}
+  bulletPrefab: {fileID: 2328142734195805609, guid: b69619dcbe0b2df43b7ec6c973721f0b, type: 3}
 --- !u!1001 &670371343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12651,3 +12651,4 @@ SceneRoots:
   - {fileID: 461445847}
   - {fileID: 875034900}
   - {fileID: 659480652}
+  - {fileID: 1715345724}
