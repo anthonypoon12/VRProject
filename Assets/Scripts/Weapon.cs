@@ -61,6 +61,9 @@ public class Weapon : MonoBehaviour
 
     private void ApplyRecoil()
     {
+        Debug.Log(Vector3.back);
+        Debug.Log(recoilForce);
+        Debug.Log(ForceMode.Impulse);
         rigidBody.AddRelativeForce(Vector3.back * recoilForce, ForceMode.Impulse);
     }
 
