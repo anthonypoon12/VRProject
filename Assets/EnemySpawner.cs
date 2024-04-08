@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
 
     private IEnumerator SpawnEnemies()
     {
-        while (EnemyCount < 20)
+        while (EnemyCount < 2)
         {
             // Randomize spawn position
             float xPos = Random.Range(minxPos, maxxPos);

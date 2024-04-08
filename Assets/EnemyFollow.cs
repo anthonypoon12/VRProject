@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Enemyfollow : MonoBehaviour
+public class Enemyfollow : MonoBehaviour, ITakeDamage
 {
     public float speed = 3.0f;
 
@@ -11,22 +12,16 @@ public class Enemyfollow : MonoBehaviour
     public Transform target;
     public float attackRange = 2f;
     public Animator animator;
-    public float _health = 100f;
+    private float maxHealth = 100f;
+    public float health;
     private float DamageToPlayer;
-
-    public float health
-    {
-        get
-        {
-            return _health;
-        }
-        set{
-            _health = Math.Clamp(value, 0, 100);
-        }
-    }
 
     // variable for bullet collision
     // Update is called once per frame
+    void Start(){
+        health = maxHealth;
+    }
+
     void Update()
     {
         //gets position of the player
@@ -37,12 +32,12 @@ public class Enemyfollow : MonoBehaviour
 
         //calculates the distance of the player vs zombie
         float distanceToPlayer = Vector3.Distance(transform.position, targetPosition);
-        RotateTowardsPlayer();
 
         if (health <= 0f)
         {
-
             animator.SetBool("isDead", true);
+            animator.SetBool("isRunning", false);
+            animator.SetBool("isAttacking", false);
             Die();
             return;
         }
@@ -66,18 +61,14 @@ public class Enemyfollow : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(Weapon weapon, Projectile projectile, Vector3 hitPoint)
     {
-        health -= damage;
+        health -= weapon.GetDamage();
+        Debug.Log(health);
     }
 
     private void Die()
     {
-        // Play death animation or effects
-        animator.SetBool("isDead", true);
-        animator.SetBool("isRunning", false);
-        animator.SetBool("isAttacking", false);
-        //waits a couple second 
         Destroy(gameObject); // Remove the zombie from the scene
     }
 

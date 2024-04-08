@@ -13,7 +13,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected float shootingForce;
     [SerializeField] protected Transform bulletSpawn;
     [SerializeField] private float recoilForce;
-    [SerializeField] private float damage;
+    [SerializeField] private float damage = 10f;
 
     private Rigidbody rigidBody;
     private XRGrabInteractable interactableWeapon;
