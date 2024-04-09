@@ -26,7 +26,7 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     void Update()
     {
         //gets position of the player
-        Vector3 targetPosition = new Vector3(target.position.x - 2 , transform.position.y, target.position.z- 2);
+        Vector3 targetPosition = new Vector3(target.position.x - 1 , transform.position.y, target.position.z- 1);
         //moves the zombie towards the user
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);   
         //calculates the distance of the player vs zombie
