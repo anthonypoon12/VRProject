@@ -1748,6 +1748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pistol1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4df3ce82db8e66645afd54ab1d5b0262, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1971,6 +1975,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2f71d248832ecd46a54486d360edaa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theEnemy: {fileID: 356829465}
+  theHealth: {fileID: 0}
+  minxPos: 1
+  maxxPos: 1
+  minzPos: 1
+  maxzPos: 1
+  EnemyCount: 0
 --- !u!4 &1108624817
 Transform:
   m_ObjectHideFlags: 0
@@ -9023,6 +9034,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4846784866733478126, guid: c1a3b47ceb3e7ba419eb543067c5f1f1, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 192
+      objectReference: {fileID: 0}
     - target: {fileID: 7921707449071614163, guid: c1a3b47ceb3e7ba419eb543067c5f1f1, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.3854916
@@ -9082,7 +9097,7 @@ PrefabInstance:
     - target: {fileID: 8521540772957198868, guid: c1a3b47ceb3e7ba419eb543067c5f1f1, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 449845861}
+      objectReference: {fileID: 331504718}
     - target: {fileID: 8521540772957198868, guid: c1a3b47ceb3e7ba419eb543067c5f1f1, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9110,7 +9125,7 @@ GameObject:
   - component: {fileID: 1833709007}
   - component: {fileID: 1833709006}
   - component: {fileID: 1833709005}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9226,7 +9241,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 72
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -9459,7 +9474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1971759979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bullet spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9547,7 +9562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2010576943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grab Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
