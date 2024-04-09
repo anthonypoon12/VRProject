@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.UI;
+using UnityEngine.UI;
 
 public class Pistol : Weapon
 {
@@ -41,7 +42,6 @@ public class Pistol : Weapon
         }
     }
 
-
     protected override void Shoot()
     {
         base.Shoot();
@@ -49,10 +49,17 @@ public class Pistol : Weapon
         projectileInstance.Init(this);
         projectileInstance.Launch();
         audio.Play();
+        audio.Play();
     }
 
     protected override void StopShooting(XRBaseInteractor interactor)
     {
         base.StopShooting(interactor);
+    }
+
+    public void EmptyAmmo()
+    {
+        currentAmmo = 0;
+        ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();
     }
 }
