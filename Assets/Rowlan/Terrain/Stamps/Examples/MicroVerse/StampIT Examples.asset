@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: StampIT Examples
+  m_EditorClassIdentifier: 
+  contentType: 0
+  author: Rowlan
+  packName: StampIT! Examples
+  id: https://assetstore.unity.com/packages/slug/218286
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: b91b5c904c6810c43b3d2a90abd8959f
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 0f8a5b215eeb78646b3d77711cbab1ab
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 86c55d25ff19f134bbbc6e97caa26677
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 8b3d38b0c81f61947a55068fb12f37f3
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 83d30fd551f55d5499d0a6f363ceed79
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 270d68bc485a7df4ca25a44b7678bf6c
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: d12bc82025ce7d442b46c9eb48a73da6
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 53d66175be511164e89be30983102f84
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: f888c3978bcda6f4692dab814d80a76c
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: a3afa63434f04ca4ca655a4261109cc8
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: f13998221befc2f49ba429248cbadaea
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: f1a7a943f31cdb742aa8615d575c89ae
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 467d10e724d53144689b7788e6f8228f
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 5a11f720fa2c86b43b8d83d24d81232b
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: e8f619720ba1b394685086c859d52448
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: c84767cce07041a478f0333b0c1dd694
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: ab920ba64c1f2b342996ca6187ad2e30
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 45acdefb4290ecd4997fc7a68022d4ce
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: c565ae35649b9194a9ac0d1da02f775d
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 96878aa10a2287141b927c7304923f87
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 978e831b618cd4045bddaeb7534621b0
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 327a5f5b464cffd49832f20ab8f18e7e
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 6d1d4846c767da245b2e3c5516d16817
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 4977e702da691954a9d1f4169a08847e
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: a7bc33ce29cca8d43b6ece5db549cf32
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 9b925a5928fb7424aa019d0859fa1130
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 3b251cd825315b147b9e2be47b0cd9cf
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 64cfc30795f81614b8a452fbfdf40a49
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 69464108deb167e48b5748cea2aa3bf9
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: e635b76a4b95396448821127a52f6462
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: dd63756ea8db5b64c8ac6692f649d83f
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: e175b355d078a0343a0e100c00c7df64
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: f499083353ada8c4983b55f67607e7aa
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: c89af6e2cbc10b544a4ab681596ed796
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 67db62e931a50534dbf9057bc400e718
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 30562f4afbd3dcf4a954cd42314b9e03
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: afe57c2c0bf467f498a69312d558ab68
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: c239f3705194a2243a87730d3875c03d
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 3077333f957bf2d479d6a9b09900113c
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 75d6f141ccee0074ba2e5c97553bef91
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 949265e8b28bd6e48af4e592d907f926
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 3486f74c56c976c458c0a281bc849828
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: ba7fab5ba04f2684ebc0d85ce637116c
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 164d413322cfc814c8bfc4d697fa49df
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: ab1ea7de3b614e84fa311f2b63ea02c7
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 62b8e4b37a1d65844acfbd6fc36a8eee
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 36ad01d3bb0a85649bf8710e3f57cf39
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: fe173e2be30e3a442b023684c0ec7124
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 655a281fc7e60564687e4d962a8087ad
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 5984e1850c646cb4690005339ea2941b
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: b27b3ee6c4c24064292d616202587161
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 83fc9147432a7114fad8b3fa40f89cb6
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: e6bc89877a242fb4490f4bdede16bf7c
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: a8ef5130c92ad5441be988178f1c3093
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 06c49888074ce724cbd3e41d516160dd
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: e6165c26fed920d4d8857043a8408e16
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: ec1cd954faa52e44e910221cd07de5ed
+    previewGradient: {fileID: 0}
+  - prefab: {fileID: 0}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: 70f4c2af40692ce46b6a7490560e77eb
+    previewGradient: {fileID: 0}
