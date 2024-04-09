@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemyfollow : MonoBehaviour, ITakeDamage
 {
     public float speed = 3.0f;
-
     public float rotationSpeed = 1.0f;
     public Transform target;
     public float attackRange = 2f;
@@ -15,6 +15,7 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     private float maxHealth = 100f;
     public float health;
     private float DamageToPlayer;
+     public Slider HealthSlider;
 
     // variable for bullet collision
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     void Update()
     {
         //gets position of the player
-        Vector3 targetPosition = new Vector3(target.position.x, transform.position.y, target.position.z);
+        Vector3 targetPosition = new Vector3(target.position.x - 2 , transform.position.y, target.position.z- 2);
         //moves the zombie towards the user
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);   
         //calculates the distance of the player vs zombie
@@ -58,6 +59,7 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     public void TakeDamage(Weapon weapon, Projectile projectile, Vector3 hitPoint)
     {
         health -= weapon.GetDamage();
+        HealthSlider.value = health;
         Debug.Log(health);
     }
 
