@@ -6,17 +6,10 @@ LightingSettings:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/World War 1 Pack/ShowSettings.lighting
   m_Name: ShowSettings
   serializedVersion: 6
   m_GIWorkflowMode: 0
   m_EnableBakedLightmaps: 1
-========
-  m_Name: M3A1_Scout_CarSettings
-  serializedVersion: 6
-  m_GIWorkflowMode: 1
-  m_EnableBakedLightmaps: 0
->>>>>>>> James:Assets/M3A1 Scout Car/M3A1_Scout_CarSettings.lighting
   m_EnableRealtimeLightmaps: 1
   m_RealtimeEnvironmentLighting: 1
   m_BounceScale: 1
