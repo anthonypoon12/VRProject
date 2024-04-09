@@ -29,27 +29,6 @@ public class Pistol : Weapon
             ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();  // Update ammoDisplay.text
         }
     }
-    private AudioSource audio;  // Just declare the field here
-
-    [SerializeField] private int maxAmmo = 10;  // Maximum ammo capacity
-    private int currentAmmo;  // Current ammo count
-    public Text ammoDisplay;
-
-    private void Start()
-    {
-        audio = GetComponent<AudioSource>();  // Initialize it in Start
-        currentAmmo = maxAmmo;  // Initialize current ammo to max ammo
-        ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();  // Update ammoDisplay.text
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))  // If 'R' key is pressed
-        {
-            currentAmmo = maxAmmo;  // Reset ammo
-            ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();  // Update ammoDisplay.text
-        }
-    }
 
     protected override void StartShooting(XRBaseInteractor interactor)
     {
@@ -61,16 +40,7 @@ public class Pistol : Weapon
             currentAmmo--;  // Decrease ammo count after shooting
             ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();  // Update ammoDisplay.text
         }
-        if (currentAmmo > 0)  // Only shoot if there is ammo remaining
-        {
-            Shoot();
-            audio.Play();
-            currentAmmo--;  // Decrease ammo count after shooting
-            ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();  // Update ammoDisplay.text
-        }
     }
-
-
 
     protected override void Shoot()
     {
