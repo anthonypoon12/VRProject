@@ -55,4 +55,10 @@ public class Pistol : Weapon
     {
         base.StopShooting(interactor);
     }
+
+    public void EmptyAmmo()
+    {
+        currentAmmo = 0;
+        ammoDisplay.text = currentAmmo.ToString() + "/" + maxAmmo.ToString();
+    }
 }
