@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/CharacterAssets.meta
-guid: 28f6ddde63e9b4f48927550d553667a4
-========
-guid: 118571b0f8ff356469f11a6a5f3ab167
->>>>>>>> origin/zombieMovements:Assets/Desert_Village_LowPoly_HDRP.meta
+guid: f9a8aad4e5c83854f9feb6d497caf53e
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
