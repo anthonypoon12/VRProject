@@ -13,7 +13,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected float shootingForce;
     [SerializeField] protected Transform bulletSpawn;
     [SerializeField] private float recoilForce;
-    [SerializeField] private float damage;
+    [SerializeField] private float damage = 10f;
 
     private Rigidbody rigidBody;
     private XRGrabInteractable interactableWeapon;
@@ -61,9 +61,6 @@ public class Weapon : MonoBehaviour
 
     private void ApplyRecoil()
     {
-        Debug.Log(Vector3.back);
-        Debug.Log(recoilForce);
-        Debug.Log(ForceMode.Impulse);
         rigidBody.AddRelativeForce(Vector3.back * recoilForce, ForceMode.Impulse);
     }
 
