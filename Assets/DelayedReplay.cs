@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DelayedReplay : MonoBehaviour
@@ -33,14 +32,17 @@ public class DelayedReplay : MonoBehaviour
     // Function to play audio loop
     void PlayLoop()
     {
-        // If the audio source is not already playing
-        if (!source.isPlaying)
-        {
-            // Play the audio clip
-            source.Play();
-            // Invoke the function again after interval seconds
-            Invoke("PlayLoop", interval);
-        }
+        // Play the audio clip
+        source.Play();
+        // Invoke the function again after the audio clip duration
+        StartCoroutine(PlayLoopAfterDelay(source.clip.length));
+    }
+
+    // Coroutine to play audio loop after delay
+    IEnumerator PlayLoopAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        PlayLoop();
     }
 
     // Function to set the volume of the audio source
