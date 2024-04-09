@@ -28,8 +28,6 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
         Vector3 targetPosition = new Vector3(target.position.x, transform.position.y, target.position.z);
         //moves the zombie towards the user
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);   
-
-
         //calculates the distance of the player vs zombie
         float distanceToPlayer = Vector3.Distance(transform.position, targetPosition);
 
@@ -47,17 +45,13 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
             // Player is close, switch to attack animation
             animator.SetBool("isRunning", false);
             animator.SetBool("isAttacking", true);
-            Debug.Log(animator.GetBool("isRunning"));
-            Debug.Log(animator.GetBool("isAttacking"));
+
         }
         else
         {
             // Player is too far, switch to run animation
             animator.SetBool("isRunning", true);
             animator.SetBool("isAttacking", false);
-            Debug.Log("Is running?: ");
-            Debug.Log(animator.GetBool("isRunning"));
-            Debug.Log(animator.GetBool("isAttacking"));
         }
     }
 
@@ -70,15 +64,5 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     private void Die()
     {
         Destroy(gameObject); // Remove the zombie from the scene
-    }
-
-    private void RotateTowardsPlayer()
-    {
-        Vector3 targetPosition = new Vector3(target.position.x, transform.position.y, target.position.z);
-
-        Vector3 direction = targetPosition - transform.position;
-
-        Quaternion rotation = Quaternion.LookRotation(direction);
-        rotation = Quaternion.RotateTowards(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
     }
 }
