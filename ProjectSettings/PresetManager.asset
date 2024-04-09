@@ -11,11 +11,8 @@ PresetManager:
       m_ManagedTypeFallback: 
     second:
     - m_Preset: {fileID: 2655988077585873504, guid: ffd8268f7307a0c48a067dad4a8fe060, type: 2}
-      m_Filter: Left
+      m_Filter: left
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 1421ad86ff3787b4dae70fe9e699a25f, type: 2}
-      m_Filter: Right
-      m_Disabled: 0
-    - m_Preset: {fileID: 2655988077585873504, guid: 2e6e6d902741c934ba75a28389d4f66e, type: 2}
-      m_Filter: Gaze
+      m_Filter: right
       m_Disabled: 0

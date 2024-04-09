@@ -593,6 +593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interactive Controls
       objectReference: {fileID: 0}
+    - target: {fileID: 3667051746007278434, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 3753776204871440802, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -764,6 +768,9 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7122483372802297286, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
     - {fileID: 3667051746007278438, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
 --- !u!224 &8180815009888545700 stripped
 RectTransform:
