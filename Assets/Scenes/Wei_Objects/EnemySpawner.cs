@@ -22,8 +22,8 @@ public class EnemySpawner : MonoBehaviour
         while (EnemyCount < 10)
         {
             // Randomize spawn position
-            float xPos = Random.Range(minxPos, maxxPos);
-            float zPos = Random.Range(minzPos, maxzPos);
+            float xPos = Random.Range(minxPos, maxxPos) + transform.position.x;
+            float zPos = Random.Range(minzPos, maxzPos) + transform.position.z;
             Vector3 position = new Vector3(xPos, 0, zPos);
             float yPos = Terrain.activeTerrain.SampleHeight(position);
 
