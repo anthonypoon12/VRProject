@@ -9,6 +9,12 @@ public class Projectile : MonoBehaviour
     public virtual void Init(Weapon weapon)
     {
         this.weapon = weapon;
+
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        }
     }
 
     public virtual void Launch()
