@@ -48,7 +48,9 @@ MonoBehaviour:
   theEnemy: {fileID: 6945825370018732511}
   theHealth: {fileID: 0}
   minxPos: 26
+  maxxPos: 0
   minzPos: 90
+  maxzPos: 0
   EnemyCount: 0
 --- !u!1001 &5405081564579317986
 PrefabInstance:
