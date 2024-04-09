@@ -10,7 +10,7 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     public float speed = 3.0f;
     public float rotationSpeed = 1.0f;
     public Transform target;
-    public float attackRange = 2f;
+    public float attackRange = 3f;
     public Animator animator;
     private float maxHealth = 100f;
     public float health;
@@ -26,11 +26,13 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
     void Update()
     {
         //gets position of the player
-        Vector3 targetPosition = new Vector3(target.position.x - 2 , transform.position.y, target.position.z- 2);
-        //moves the zombie towards the user
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);   
+        Vector3 targetPosition = new Vector3(target.position.x, transform.position.y, target.position.z);
+        // Vector3 targetPosition = new Vector3(target.position.x, target.position.y, target.position.z);
         //calculates the distance of the player vs zombie
         float distanceToPlayer = Vector3.Distance(transform.position, targetPosition);
+        Vector3 targetDirection = targetPosition - transform.position;
+        Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, speed * Time.deltaTime, 0.0f);
+        transform.rotation = Quaternion.LookRotation(newDirection);
 
         if (health <= 0f)
         {
@@ -53,6 +55,9 @@ public class Enemyfollow : MonoBehaviour, ITakeDamage
             // Player is too far, switch to run animation
             animator.SetBool("isRunning", true);
             animator.SetBool("isAttacking", false);
+            //moves the zombie towards the user
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);   
+
         }
     }
 
