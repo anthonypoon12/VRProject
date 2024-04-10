@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2968963087408666698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5525037324881462436, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_Name
+      value: Falling Snow Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970496018198816959, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: simulationSpeed
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.x.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.z.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.x.minScalar
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.y.minScalar
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.z.minScalar
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.x.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257875622103417971, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
+      propertyPath: ForceModule.z.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99cd80b8b470c37429e1cc0746a35e6f, type: 3}
